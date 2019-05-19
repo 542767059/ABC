@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using ZJY.Framework;
+
+namespace ZJY.Framework
+{
+    public class FixAddHp : IDamage
+    {
+        /// <summary>
+        /// 加血对象
+        /// </summary>
+        private List<Entity> m_Target;
+
+        public List<Entity> Target
+        {
+            get
+            {
+                return m_Target;
+            }
+
+            set
+            {
+                m_Target = value;
+            }
+        }
+
+        public int Handle(Skill skill)
+        {
+            //todo
+            Debug.Log("列表目标加血");
+            return 1;
+        }
+    }
+}

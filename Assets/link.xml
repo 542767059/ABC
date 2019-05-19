@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<linker>
+  <assembly fullname="UnityEngine" preserve="all"/>
+  <assembly fullname="ZJY.Framework" preserve="all" />
+  <assembly fullname="ZJY.Model" preserve="all" />
+  <assembly fullname="System" preserve="all" />
+  <assembly fullname="Assembly-CSharp" preserve="all" />
+</linker>
+

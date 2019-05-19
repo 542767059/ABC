@@ -1,0 +1,31 @@
+﻿
+namespace ZJY.Framework
+{
+    public static class BuffIdType
+    {
+        public const string Power = "强力打击";
+        public const string DirectDamage = "固定伤害";
+        public const string DamageByNumeric = "直接伤害";
+        public const string DOT = "持续伤害";
+        public const string UpdateNumeric = "改变数值";
+        public const string EmitObj = "发射飞行道具";
+        public const string PlayEffect = "播放特效";
+        public const string EmitEffectWithBuff = "发射BUFF携带特效";
+        public const string HitEffect = "击中特效";
+        public const string PlaySound = "播放音效";
+        public const string AddBuff = "添加BUFF";
+        public const string Move = "移动";
+        public const string MoveBack = "返回";
+        public const string PushBack = "击退";
+        public const string PlayAnim = "播放角色动画";
+        public const string SkillEnd = "技能结束";
+        public const string GiveSpecialDebuff = "给予特殊效果";
+        public const string GiveRecover = "恢复";
+        public const string GiveNumeric = "永久提升属性";
+        public const string EnhanceSkillEffect = "提升技能效果";
+        public const string CostHPMP = "消费HP_MP";
+        public const string RangeDetection = "范围目标检测";
+
+
+    }
+}
